@@ -3,7 +3,7 @@
 	"name": "Artsy.net Price per square unit",
 	"version": "1.0",
 
-	"description": "Calculated the price per square unit.",
+	"description": "Calculates the price per square unit.",
 
 	"content_scripts": [
 		{
