@@ -1,0 +1,14 @@
+{
+	"manifest_version": 2,
+	"name": "Artsy.net Price per square unit",
+	"version": "1.0",
+
+	"description": "Calculated the price per square unit.",
+
+	"content_scripts": [
+		{
+			"matches": ["*://*.artsy.net/artwork/*"],
+			"js": ["price-per-unit.js"]
+		}
+	]
+}
